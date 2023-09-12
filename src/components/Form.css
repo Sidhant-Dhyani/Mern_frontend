@@ -1,0 +1,31 @@
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 30vh;
+    border: solid 2px black;
+    background: rgb(80, 141, 225);
+}
+
+input {
+    margin-bottom: 10%;
+}
+
+.showdata{
+    margin-top: 2%;
+    border: solid 2px black;
+    color: black;
+    background: rgb(116, 197, 251);
+    text-decoration: none;
+}
+
