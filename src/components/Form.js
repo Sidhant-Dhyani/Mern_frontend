@@ -8,7 +8,7 @@ const Form = () => {
       <h1>Form</h1>
       <form
         method="post"
-        action="http://localhost:4000/postData"
+        action="mern-backend-ten.vercel.app/postData"
         className="container"
       >
         <input type="text" id="name" name="name" placeholder="Name" />
