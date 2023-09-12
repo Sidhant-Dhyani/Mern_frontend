@@ -5,7 +5,7 @@ import "./Data.css";
 const Data = () => {
   const [data, setData] = useState([]);
   const handleDelete = (postId) => {
-    fetch(`mern-backend-ten.vercel.app/${postId}`, {
+    fetch(`https://mern-backend-ten.vercel.app/${postId}`, {
       method: "DELETE",
     })
       .then((response) => {
@@ -19,7 +19,7 @@ const Data = () => {
       });
   };
   useEffect(() => {
-    fetch("mern-backend-ten.vercel.app/getData")
+    fetch("https://mern-backend-ten.vercel.app/getData")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
